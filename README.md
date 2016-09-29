@@ -36,6 +36,13 @@ Dataset - Iris.csv
 
 python iris-keras.py
 
->Tensor flow
-python iris-tf.py
+```python
+#Save the weights using
+model.save_weights(‘<Name>.h5’) #Keras recommends hdf5 file extension
 
+#And reuse them using
+model.load_weights(‘<Name>.h5’)#h5 model file saved in your Working directory
+
+If hdf5 is not installed, Do:
+pip install hdf5
+```
