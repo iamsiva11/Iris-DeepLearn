@@ -11,7 +11,7 @@ The attributes for this dataset can be summarized as follows:
 4. Petal width in centimeters.
 5. Class.
 
-This is a multiclass classification problem, meaning that there are more than two classes to be predicted, in fact there are three flower species.
+This is a multiclass classification problem, meaning that there are more than two classes to be predicted, in fact there are three flower species(virginica,versicolor,setosa).
 
 This is an important type of problem on which to practice with neural networks because the three class values require specialized handling.
 
